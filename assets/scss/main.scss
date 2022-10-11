@@ -1,0 +1,93 @@
+@import "~bootstrap";
+
+* {
+  color: #666;
+  font-family: "Comic Sans MS" !important;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.todos {
+  max-width: 700px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.todos-item {
+  border-bottom: 2px solid #666;
+  width: 100%;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todos-item > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  visibility: hidden;
+  margin-right: 20px;
+}
+
+input[type="checkbox"]:after {
+  content: " ";
+  display: block;
+  visibility: visible;
+  color: #fff;
+  font-size: 12px;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 14px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+input[type="checkbox"]:checked:after {
+  content: "\2714";
+  background-color: #00aa00;
+}
+
+.custom-btn-dark {
+  border: 1px solid #789;
+  background-color: #789;
+  color: #fff;
+}
+
+.custom-btn-danger {
+  border: 1px solid #987;
+  background-color: #987;
+  color: #fff;
+}
+
+.custom-btn-tab {
+  border: 1px solid #666;
+  background-color: #ffa;
+  color: #666;
+}
+
+.btn:hover{
+  border: 1px solid #666;
+}
+
+.active{
+  background-color: #00aa0050;
+}
+
+.text-decoration-line-through {
+  opacity: 0.4;
+  font-style: italic;
+}

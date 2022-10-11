@@ -1,0 +1,49 @@
+{
+  "todos": [
+    {
+      "id": 470,
+      "isDone": true,
+      "content": "step1. git clone nuxt2-todo-list"
+    },
+    {
+      "id": 4,
+      "isDone": true,
+      "content": "step2. cd nuxt2-todo-list"
+    },
+    {
+      "id": 911,
+      "isDone": false,
+      "content": "step3. yarn / npm install"
+    },
+    {
+      "id": 898,
+      "isDone": false,
+      "content": "step4. yarn dev"
+    },
+    {
+      "id": 640,
+      "isDone": false,
+      "content": "step5. open another terminal"
+    },
+    {
+      "id": 896,
+      "isDone": false,
+      "content": "step6. cd nuxt2-todo-list/server"
+    },
+    {
+      "id": 358,
+      "isDone": false,
+      "content": "step7. json-server --watch data.json --port 3002"
+    },
+    {
+      "id": 59,
+      "isDone": true,
+      "content": "step8. open http://localhost:3000/"
+    },
+    {
+      "id": 929,
+      "isDone": false,
+      "content": "step9. try add todo"
+    }
+  ]
+}
